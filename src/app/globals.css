@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-50: #eef5ff;
+  --brand-500: #2f74ff;
+  --brand-600: #1a56ef;
+  --brand-700: #1442c4;
+  --brand-900: #0b2877;
+  --brand-950: #06184a;
+  --cyan-500: #06b6d4;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-graphite-800 antialiased;
+  font-family: var(--font-sans, "Inter", system-ui, "Segoe UI", "Helvetica Neue", Arial, sans-serif);
+}
+
+/* Reusable container */
+.container-default {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+/* Buttons */
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:ring-offset-2;
+}
+.btn-primary {
+  @apply btn bg-brand-600 text-white shadow-glow hover:bg-brand-700 hover:-translate-y-0.5;
+}
+.btn-secondary {
+  @apply btn bg-white text-brand-700 border border-brand-200 hover:bg-brand-50;
+}
+.btn-ghost {
+  @apply btn text-white/90 hover:bg-white/10;
+}
+.btn-whatsapp {
+  @apply btn bg-[#25D366] text-white hover:bg-[#1ebe5a] hover:-translate-y-0.5;
+}
+.btn-outline {
+  @apply btn border border-graphite-300 text-graphite-800 hover:border-brand-500 hover:text-brand-700;
+}
+
+/* Section styles */
+.section { @apply py-16 sm:py-20; }
+.section-dark { @apply bg-graphite-900 text-white; }
+.section-soft { @apply bg-soft-gradient; }
+.section-grid { @apply bg-graphite-950 text-white; }
+
+/* Headings */
+.eyebrow {
+  @apply inline-block text-xs sm:text-sm font-semibold tracking-[0.18em] uppercase text-brand-700;
+}
+.eyebrow-dark { @apply text-cyanx-400; }
+
+.h1 { @apply text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight font-display; }
+.h2 { @apply text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight font-display; }
+.h3 { @apply text-2xl sm:text-3xl font-bold tracking-tight font-display; }
+
+/* Cards */
+.card {
+  @apply bg-white border border-graphite-100 rounded-2xl shadow-card transition-all duration-300;
+}
+.card:hover {
+  @apply -translate-y-1 shadow-glow border-brand-200;
+}
+
+/* Marquee */
+.marquee {
+  @apply flex gap-12 w-max animate-marquee;
+}
+.marquee:hover { animation-play-state: paused; }
+
+/* Hero grid pattern */
+.hero-pattern {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255,255,255,0.07) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Selection */
+::selection { @apply bg-brand-500/30 text-white; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* Hide scrollbar utility - used on JS-driven carousels (WhyChoose, ClientCarousel)
+   where the visible track is meaningless because users interact via arrow buttons
+   or the strip auto-scrolls. */
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+.scrollbar-hide::-webkit-scrollbar { display: none; width: 0; height: 0; }
+
+/* Smooth focus rings */
+:focus-visible { @apply outline-none ring-2 ring-brand-500/60 ring-offset-2 rounded-lg; }
+

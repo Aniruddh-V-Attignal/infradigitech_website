@@ -1,0 +1,4 @@
+# Cloudflare Pages redirects
+# Legacy /products/<slug> URLs consolidate onto the canonical flat /<slug>
+# route (preserves SEO equity from old indexed URLs / backlinks).
+/products/*  /:splat  301

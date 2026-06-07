@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220">
+  <ellipse cx="240" cy="110" rx="220" ry="90" fill="#1a56ef"/>
+  <text x="240" y="138"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="700"
+        font-size="84"
+        fill="#0b1024"
+        letter-spacing="-1">Digi-Tech</text>
+</svg>
