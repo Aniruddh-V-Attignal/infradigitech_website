@@ -255,6 +255,9 @@ export default function BlogPostPage({ params }) {
         type="Speakable"
         data={{ cssSelectors: ["h1", ".post-lead", "h2"] }}
       />
+      {post.faq?.length > 0 && (
+        <StructuredData type="FAQPage" data={post.faq} />
+      )}
 
       {/* Hero — matches the site-wide hero pattern (graphite-950 base + brand-gradient overlay + hero-pattern) */}
       <section className="bg-graphite-950 text-white relative overflow-hidden">
@@ -327,6 +330,22 @@ export default function BlogPostPage({ params }) {
           {post.content.map((block, i) => (
             <Block key={i} block={block} />
           ))}
+
+          {post.faq?.length > 0 && (
+            <div className="mt-12 pt-8 border-t border-graphite-200">
+              <h2 className="text-2xl sm:text-3xl font-extrabold font-display text-graphite-900 tracking-tight mb-6">
+                Frequently asked questions
+              </h2>
+              <div className="space-y-6">
+                {post.faq.map((f, i) => (
+                  <div key={i}>
+                    <h3 className="text-lg font-bold text-graphite-900">{f.q}</h3>
+                    <p className="mt-2 text-graphite-700 leading-relaxed">{f.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Tags */}
           {post.tags?.length > 0 && (
