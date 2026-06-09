@@ -52,10 +52,11 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: "/logo_digitech.png", type: "image/png" },
-      { url: "/favicon.svg",       type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
     ],
-    apple: "/logo_digitech.png",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
   },
 };
 

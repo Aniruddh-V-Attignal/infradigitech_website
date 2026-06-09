@@ -10,8 +10,8 @@ export default function manifest() {
     background_color: "#ffffff",
     theme_color: "#1a56ef",
     icons: [
-      { src: "/favicon.svg", sizes: "any", type: "image/svg+xml" },
-      { src: "/logo-mark.svg", sizes: "any", type: "image/svg+xml", purpose: "any maskable" },
+      { src: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { src: "/icon.png", sizes: "512x512", type: "image/png", purpose: "any" },
     ],
   };
 }

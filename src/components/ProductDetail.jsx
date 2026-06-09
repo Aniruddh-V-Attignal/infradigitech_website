@@ -8,7 +8,7 @@ import YoutubeEmbed from "./YoutubeEmbed";
 import ProductCard from "./ProductCard";
 import ProductTiers from "./ProductTiers";
 import ProductVariants from "./ProductVariants";
-import { siteConfig } from "@/config/site";
+import { siteConfig, buildTelLink } from "@/config/site";
 import { getCategoryById, getRelatedProducts } from "@/data/products";
 import { getProductModels, TIER_LABELS } from "@/data/product-models";
 
@@ -134,8 +134,8 @@ export default function ProductDetail({ product, tierSlots }) {
                 <a href={siteConfig.forms.enquiry} target="_blank" rel="noopener" className="btn-primary justify-center">
                   Request a Quote
                 </a>
-                <a href={siteConfig.forms.serviceRequest} target="_blank" rel="noopener" className="btn-outline justify-center">
-                  Speak with an Agent
+                <a href={buildTelLink(siteConfig.contact.salesMobile)} className="btn-outline justify-center">
+                  Contact Sales
                 </a>
               </div>
             </div>

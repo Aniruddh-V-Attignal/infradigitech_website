@@ -2,7 +2,7 @@ import Link from "next/link";
 import StructuredData from "@/components/StructuredData";
 import {
   Headphones, Wrench, ShieldCheck, MessageCircle, Phone, ExternalLink,
-  HelpCircle, ChevronRight, Clock, Sparkles, Mail, AlertCircle, ArrowRight,
+  HelpCircle, Clock, Sparkles, Mail, AlertCircle, ArrowRight,
   Globe2, Zap, Handshake,
 } from "lucide-react";
 import {
@@ -294,29 +294,40 @@ export default function ServiceRequestPage() {
         <div className="container-default py-20 sm:py-24">
           <div className="rounded-3xl bg-graphite-50 ring-1 ring-graphite-200 p-7 sm:p-9 grid lg:grid-cols-12 gap-6 items-center">
             <div className="lg:col-span-7">
-              <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-graphite-400">SLA</div>
+              <div className="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.22em] text-brand-700">
+                <Sparkles size={12} /> Other enquiries
+              </div>
               <h3 className="mt-2 text-2xl font-display font-extrabold text-graphite-900 tracking-tight">
-                Same-day acknowledgement. 24-72 hr on-site.
+                Upgrades, integrations &amp; new projects.
               </h3>
+              <p className="mt-3 text-sm text-graphite-600 max-w-xl">
+                Not every enquiry is a repair. Tell us what you are planning and our team
+                will scope it with you — from a single upgrade to a multi-site rollout.
+              </p>
               <ul className="mt-4 grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-graphite-700">
-                <li className="flex items-start gap-2"><ChevronRight size={14} className="mt-1 text-brand-600 shrink-0" /> Every ticket acknowledged within 4 business hours.</li>
-                <li className="flex items-start gap-2"><ChevronRight size={14} className="mt-1 text-brand-600 shrink-0" /> Remote diagnosis on call or screen-share.</li>
-                <li className="flex items-start gap-2"><ChevronRight size={14} className="mt-1 text-brand-600 shrink-0" /> On-site dispatch via PAN-India network.</li>
-                <li className="flex items-start gap-2"><ChevronRight size={14} className="mt-1 text-brand-600 shrink-0" /> AMC customers get priority queue.</li>
+                <li className="flex items-start gap-2"><Zap size={14} className="mt-1 text-brand-600 shrink-0" /> Upgrade an old or legacy system to the latest hardware.</li>
+                <li className="flex items-start gap-2"><Zap size={14} className="mt-1 text-brand-600 shrink-0" /> Add an API or third-party software integration.</li>
+                <li className="flex items-start gap-2"><Zap size={14} className="mt-1 text-brand-600 shrink-0" /> Source a product you don&apos;t see in our catalogue.</li>
+                <li className="flex items-start gap-2"><Zap size={14} className="mt-1 text-brand-600 shrink-0" /> Plan a custom or bulk requirement for a new site.</li>
               </ul>
+              <p className="mt-4 inline-flex items-start gap-2 text-sm text-graphite-700">
+                <Wrench size={15} className="mt-0.5 text-brand-600 shrink-0" />
+                Our technician can visit your site, run a survey and give you a detailed
+                requirements report.
+              </p>
             </div>
             <div className="lg:col-span-5 flex flex-col sm:flex-row lg:flex-col gap-3 lg:items-stretch">
-              <a
-                href="#service-form"
+              <Link
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand-700 transition"
               >
-                Open service form <ArrowRight size={14} />
-              </a>
+                Contact us <ArrowRight size={14} />
+              </Link>
               <a
-                href={buildTelLink(c.serviceMobile)}
+                href={buildTelLink(c.salesMobile)}
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-graphite-200 bg-white px-5 py-2.5 text-sm font-semibold text-graphite-800 hover:border-brand-400 hover:text-brand-700 transition"
               >
-                <Phone size={14} /> Call {c.serviceMobile}
+                <Phone size={14} /> Call sales {c.salesMobile}
               </a>
             </div>
           </div>

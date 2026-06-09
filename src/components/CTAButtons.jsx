@@ -1,12 +1,12 @@
 "use client";
 
-import { ArrowRight, Headphones, MessageCircle } from "lucide-react";
-import { siteConfig, buildSalesWhatsAppLink } from "@/config/site";
+import { ArrowRight, Phone, MessageCircle } from "lucide-react";
+import { siteConfig, buildSalesWhatsAppLink, buildTelLink } from "@/config/site";
 
 /**
  * Standard 3-button CTA group used on every product page:
  *   - Request a Quote (Microsoft Forms)
- *   - Speak with an Agent (Microsoft Forms — service request route)
+ *   - Contact Sales (tel: link to the sales number)
  *   - WhatsApp (deep link with prefilled message)
  */
 export default function CTAButtons({ productName = "" }) {
@@ -24,12 +24,10 @@ export default function CTAButtons({ productName = "" }) {
         Request a Quote <ArrowRight size={16} />
       </a>
       <a
-        href={siteConfig.forms.serviceRequest}
-        target="_blank"
-        rel="noopener"
+        href={buildTelLink(siteConfig.contact.salesMobile)}
         className="btn-outline"
       >
-        <Headphones size={16} /> Speak with an Agent
+        <Phone size={16} /> Contact Sales
       </a>
       <a
         href={buildSalesWhatsAppLink(message)}

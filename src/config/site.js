@@ -257,4 +257,3 @@ export function buildMailLink(subject = "Enquiry", body = "") {
 
 export default siteConfig;
 
-  
