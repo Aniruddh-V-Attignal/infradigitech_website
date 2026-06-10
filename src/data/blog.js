@@ -1028,6 +1028,156 @@ export const POSTS = [
       }
     ]
   },
+
+  {
+    "slug": "bcsbi-iba-rbi-guidelines-bank-interest-rate-display",
+    "title": "BCSBI, IBA and RBI Guidelines for Interest-Rate Display at Bank Branches",
+    "excerpt": "The BCSBI-IBA Code of Bank's Commitment to Customers set the transparency standard for showing interest rates; RBI's Comprehensive Notice Board rules make it operational. Here is what bank branches must display, what changed when BCSBI was wound up, and how a digital interest-rate board keeps you compliant.",
+    "category": "bfsi",
+    "tags": [
+      "interest-rate-display",
+      "BCSBI",
+      "IBA",
+      "RBI-compliance",
+      "banking-display"
+    ],
+    "publishedAt": "2026-06-08",
+    "updatedAt": "2026-06-08",
+    "readingMinutes": 10,
+    "author": "Infra DigiTech Engineering",
+    "heroImage": "/images/blog/bcsbi-iba-interest-rate-display.png",
+    "ogImage": "/images/blog/bcsbi-iba-interest-rate-display.png",
+    "relatedProducts": [
+      "bank-interest-rate-display-board",
+      "forex-display-board",
+      "gold-silver-rate-display-system"
+    ],
+    "faq": [
+      {
+        "q": "Is BCSBI still active?",
+        "a": "No. The Banking Codes and Standards Board of India, set up in 2006, was wound up - its member banks passed a dissolution resolution in September 2021 and the RBI directed it to begin winding down because the RBI itself could take up its activities. The transparency and fair-disclosure standards BCSBI set with the IBA now sit within the RBI's customer-service framework, and customer grievances go to the bank first and then to the RBI Ombudsman if unresolved."
+      },
+      {
+        "q": "What does a bank branch have to display about interest rates?",
+        "a": "Under the RBI's 'Display of Information by Banks - Comprehensive Notice Board' rules, branches must display key information including interest rates on deposits, service charges, products and services, time norms and the grievance-redressal mechanism, on a notice board at the branch, with the same information also available on the bank's website. Recent changes must be specifically indicated."
+      },
+      {
+        "q": "What is the minimum size of the comprehensive notice board?",
+        "a": "The RBI advises a minimum notice-board size of 2 feet by 2 feet, so the information can be comfortably read from a distance of about 3 to 5 metres. Banks must also display the branch name, working days, working hours and weekly off outside the branch premises."
+      },
+      {
+        "q": "Do interest-rate displays need to be multilingual?",
+        "a": "Yes - the RBI's customer-service framework expects information to be provided bilingually in Hindi-speaking states and trilingually (local language, Hindi and English) in other states, so customers can actually read what is displayed. A digital interest-rate board that supports multiple languages makes this straightforward."
+      },
+      {
+        "q": "Can a digital LED board satisfy the display requirement?",
+        "a": "The RBI permits banks to make the required information available through electronic means such as touch-screens and information kiosks in addition to the notice board. A digital interest-rate display board is well suited to the rates portion of that obligation: it shows current rates clearly, highlights recent changes and updates across branches from one place - while the bank ensures the full comprehensive-notice-board content remains available as required."
+      }
+    ],
+    "content": [
+      {
+        "type": "lead",
+        "text": "If your branch displays deposit interest rates on a board by the counter, two reference points sit behind that board: the Code of Bank's Commitment to Customers that the BCSBI and the IBA evolved together, and the RBI's rules on how banks must display information. This guide explains what each one asks for, what changed when the BCSBI was wound up, and how a digital interest-rate display board lets a branch network keep the whole thing accurate and compliant."
+      },
+      {
+        "type": "h2",
+        "id": "two-reference-points",
+        "text": "Two reference points behind every rate board"
+      },
+      {
+        "type": "p",
+        "text": "Transparency about interest rates in Indian banking rests on two layers. The first is principle: customers have a right to know the rates that apply to them, stated clearly and kept current. That principle was codified in the Code of Bank's Commitment to Customers, a voluntary code that the Banking Codes and Standards Board of India (BCSBI) developed jointly with the Indian Banks' Association (IBA). The second layer is operational: the RBI's instructions on the display of information by banks, which turn that principle into specific requirements about what goes on the branch notice board, how big it is and how changes are flagged."
+      },
+      {
+        "type": "p",
+        "text": "Understanding both matters, because the principle explains why you display rates and the RBI rules explain exactly how."
+      },
+      {
+        "type": "h2",
+        "id": "bcsbi-iba-code",
+        "text": "The BCSBI-IBA Code of Bank's Commitment to Customers"
+      },
+      {
+        "type": "p",
+        "text": "The BCSBI was set up in 2006 as an independent body to monitor whether banks adhered to agreed codes and standards of fair customer service. Working with the IBA - the representative body of Indian banks - it produced the Code of Bank's Commitment to Customers and a parallel code for micro and small enterprises. These codes set minimum standards of banking practice, and a recurring theme is transparency: telling customers the interest rates, fees and charges that apply, in plain terms, and communicating changes to them."
+      },
+      {
+        "type": "p",
+        "text": "For interest-rate display specifically, the spirit of the code is simple - a customer standing in your branch should be able to see the current deposit rates without having to ask, and should not be surprised by a rate that quietly changed. That expectation is exactly what a clearly visible, up-to-date rate board satisfies."
+      },
+      {
+        "type": "h2",
+        "id": "bcsbi-wound-up",
+        "text": "What changed when BCSBI was wound up"
+      },
+      {
+        "type": "p",
+        "text": "The BCSBI is no longer operational. Its member banks passed a resolution to dissolve it in September 2021, and the RBI directed it to begin the process of winding down on the basis that the RBI could itself take up the activities BCSBI had performed. In practice this means the codes are no longer monitored by a separate board; the transparency and fair-conduct standards they embodied are now carried within the RBI's own customer-service and consumer-protection framework. For customers, grievances are raised with the bank first and, if unresolved, escalated to the RBI Ombudsman."
+      },
+      {
+        "type": "callout",
+        "tone": "info",
+        "title": "The standard outlived the board",
+        "text": "BCSBI as an institution is gone, but the disclosure standard it set with the IBA did not disappear - it was absorbed into the RBI's customer-service directions. So the practical compliance question for a branch is unchanged: are current rates clearly displayed, and are changes flagged?"
+      },
+      {
+        "type": "h2",
+        "id": "rbi-notice-board",
+        "text": "What the RBI's Comprehensive Notice Board requires"
+      },
+      {
+        "type": "p",
+        "text": "The operational rules live in the RBI's 'Display of Information by Banks - Comprehensive Notice Board' guidance, part of its customer-service framework. Branches must display key information - interest rates on deposits, service charges, the products and services offered, time norms for common transactions, and the grievance-redressal mechanism - on a notice board at the branch, with the same details also carried on the bank's website."
+      },
+      {
+        "type": "p",
+        "text": "The guidance is specific about visibility. The notice board should be a minimum of 2 feet by 2 feet so that it can be read comfortably from about 3 to 5 metres away, and it must specifically indicate wherever a recent change has been made. Banks are also expected to display the branch name, working days, working hours and weekly off outside the premises, and to provide information bilingually in Hindi-speaking states and trilingually elsewhere. Notably, the RBI permits banks to make this information available through electronic means - touch-screens and information kiosks - alongside the physical board."
+      },
+      {
+        "type": "h2",
+        "id": "where-digital-fits",
+        "text": "Where a digital interest-rate display board fits"
+      },
+      {
+        "type": "p",
+        "text": "Deposit interest rates are the part of the notice board that changes most often and matters most to a walk-in customer - and they are the hardest part to keep accurate across a branch network using printed cards. This is exactly where a digital interest-rate display board earns its place. Rates are updated centrally and reflected on every branch board at once, so a head-office revision never leaves a branch showing a stale figure. The display is bright and legible from across the banking hall, which directly answers the RBI's read-from-3-to-5-metres expectation."
+      },
+      {
+        "type": "p",
+        "text": "A good rate board also makes the 'indicate recent changes' requirement effortless - a revised slab can be highlighted automatically when it updates - and supports multiple languages so the bilingual or trilingual expectation is met without reprinting anything. Across a network, that means consistency (every branch shows the same sanctioned rates), an audit trail of what was displayed and when, and the end of the printed-card era where a teller pins up a correction by hand."
+      },
+      {
+        "type": "p",
+        "text": "A digital board addresses the interest-rate portion of the display obligation cleanly; the bank still ensures the full comprehensive-notice-board content - charges, time norms, grievance redressal - remains available as required, whether on the board, a kiosk or the website."
+      },
+      {
+        "type": "h2",
+        "id": "checklist",
+        "text": "A branch interest-rate display checklist"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Show current deposit interest rates prominently, legible from across the banking hall (the RBI's 3-to-5-metre test).",
+          "Indicate recent changes clearly - a customer should see when a rate was revised, not just the new number.",
+          "Keep rates consistent with the sanctioned head-office schedule across every branch - central update removes the stale-card risk.",
+          "Provide the information in the appropriate languages - bilingual in Hindi-speaking states, trilingual elsewhere.",
+          "Ensure the wider comprehensive-notice-board content (charges, time norms, grievance redressal) is available on the board, a kiosk or the website.",
+          "Keep a record of displayed rates and change dates - useful for internal audit and for answering any customer query about what applied and when."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "BCSBI may have closed its doors, but the standard it set with the IBA - tell customers the rates, clearly and currently - is now an RBI expectation with concrete display rules behind it. A well-run digital rate board is simply the most reliable way for a modern branch network to keep meeting it."
+      },
+      {
+        "type": "cta",
+        "text": "Modernising interest-rate display across your branch network to meet RBI display-of-information expectations? Talk to our team about centrally updated, multilingual digital rate boards.",
+        "href": "/bank-interest-rate-display-board",
+        "label": "Explore our bank interest-rate display board"
+      }
+    ]
+  },
 ];
 
 /* ----------------------------------------------------------------------------
