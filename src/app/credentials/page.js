@@ -93,10 +93,10 @@ const TM = L.trademark;
 // Leave a string empty to show a "To be updated" placeholder for that field.
 const BANKING = [
   {
-    bankName:       "",  // e.g. "HDFC Bank"
-    branchLocation: "",  // e.g. "Banashankari, Bengaluru"
-    accountNumber:  "",  // e.g. "50200012345678"
-    ifsc:           "",  // e.g. "HDFC0001234"
+    bankName:       "HDFC Bank",
+    branchLocation: "Avalahalli Extension, Bengaluru",
+    accountNumber:  "50200117056693",
+    ifsc:           "HDFC0001750",
   },
   // Add a second banking partner here if you have one - copy the block above.
 ];

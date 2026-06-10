@@ -458,9 +458,9 @@ export const products = [
     short:
       "Advanced wireless LCD queue management — calling unit, ticket dispenser, voice announcement and counter mapping — also available in Standard LED and Basic single-queue variants.",
     description:
-      "End-to-end queue and token management — from a flagship Advanced wireless LCD platform supporting up to 15 queues, multi-language voice and TAB kiosk, through a Standard LED system with calling unit + auto-cutter printer, to a Basic single-queue LED setup. Every tier ships completely wireless with Wi-Fi connectivity between display, calling unit, ticket dispenser and MCU hub. Designed for banks, hospitals, telecom shops, government offices and retail showrooms.",
+      "End-to-end queue and token management — from a flagship Advanced wireless LCD platform supporting up to 15 queues, multi-language voice and TAB kiosk, through a Standard LED system with calling unit + auto-cutter printer, to a Basic single-queue LED setup. Advanced and Standard tiers run wireless over Wi-Fi between display, calling unit, ticket dispenser and MCU hub, while the Basic tier uses a self-contained RF network. Designed for banks, hospitals, telecom shops, government offices and retail showrooms.",
     features: [
-      "Completely wireless — Wi-Fi router connects every hardware unit",
+      "Wireless — Wi-Fi router (Advanced / Standard) or a self-contained RF network (Basic) connects every unit",
       "Calling unit with numerical keypad, NEXT + RECALL buttons",
       "Small LCD on calling unit shows called token, pending tokens and link status",
       "Ticket dispenser with print of name, token number, date & time + auto-cutter",
@@ -468,16 +468,16 @@ export const products = [
       "Voice + non-voice announcement modes",
       "Multi-language voice (English, Hindi, Kannada, Telugu, Tamil) on advanced tier",
       "MCU acts as system hub",
-      "5 V power point at every installation point",
+      "Standard 220 V AC point at each installation location, connected via our own 5 A plug",
       "Plug-and-play — no inter-unit wiring",
     ],
     specs: [
       { label: "Tiers available",  value: "Advanced LCD (TAB kiosk variant) · Standard LED · Basic LED" },
-      { label: "Queues supported", value: "Up to 15 (Advanced) · 2 (Standard) · 1 (Basic)" },
+      { label: "Queues supported", value: "Up to 15 (Advanced) · up to 6 (Standard) · 1 (Basic)" },
       { label: "Counters",         value: "Multi-counter mapping with flexible assignment" },
-      { label: "Communication",    value: "Wi-Fi (router-based) · MCU hub" },
+      { label: "Communication",    value: "Wi-Fi router (Advanced / Standard) · RF network (Basic) · MCU hub" },
       { label: "Voice languages",  value: "English + 4 regional (advanced)" },
-      { label: "Power",            value: "5 V DC at each unit · 100–240 V AC adapters" },
+      { label: "Power",            value: "Standard 220 V AC point at each installation location, connected via our own 5 A plug" },
     ],
     applications: [
       "Bank branches & treasury halls",
@@ -539,16 +539,16 @@ export const products = [
           { label: "Kiosk",         value: "TAB Kiosk · Wall-mount · Table-top · Floor-mount" },
           { label: "Voice",         value: "English + Regional language" },
           { label: "Connectivity",  value: "Wi-Fi (router-based)" },
-          { label: "Power",         value: "5 V DC at each installation point" },
+          { label: "Power",         value: "Standard 220 V AC point at each installation location, connected via our own 5 A plug" },
         ],
       },
       {
         id: "standard",
         name: "Standard Token Management System",
         badge: "Wireless · LED",
-        headline: "Wireless LED-based customer-flow management for 2-queue setups",
+        headline: "Wireless LED-based customer-flow management for up to 6-queue setups",
         summary:
-          "Cost-effective wireless LED-based customer-flow management. LED display unit shows token number along with counter number (configurable up to 3 lines), with a calling unit keypad (NEXT / RECALL) and a token dispenser with auto-cutter for smooth issuance. Supports up to 2 queues and voice or non-voice announcement options.",
+          "Cost-effective wireless LED-based customer-flow management. LED display unit shows token number along with counter number (configurable up to 3 lines), with a calling unit keypad (NEXT / RECALL) and a token dispenser with auto-cutter for smooth issuance. Supports up to 6 queues with a mechanical thermal printer (up to 2 queues with a POS printer), and voice or non-voice announcement options.",
         features: [
           "Completely wireless LED-based customer flow management",
           "Calling unit with numerical keypad — NEXT + RECALL buttons",
@@ -556,16 +556,16 @@ export const products = [
           "LED display shows token number along with counter number — up to 3 lines",
           "Token dispenser with auto-cutter for smooth, efficient issuance",
           "Tokens print name, token number, date & time",
-          "Supports up to 2 queues",
+          "Supports up to 6 queues with a mechanical thermal printer; up to 2 queues with a POS printer",
           "Voice + non-voice announcement options",
         ],
         applications: ["Bank branches", "Mid-size clinics & polyclinics", "Service counters", "Government service windows"],
         specs: [
           { label: "Display",   value: "LED · up to 3 lines (token + counter)" },
-          { label: "Queues",    value: "Up to 2" },
+          { label: "Queues",    value: "Up to 6 (mechanical thermal printer) · up to 2 (POS printer)" },
           { label: "Calling unit", value: "Keypad + NEXT + RECALL · LCD status" },
           { label: "Dispenser", value: "Token printer with auto-cutter" },
-          { label: "Power",     value: "100–240 V AC adapter" },
+          { label: "Power",     value: "Standard 220 V AC point at each installation location, connected via our own 5 A plug" },
         ],
       },
       {
@@ -574,7 +574,7 @@ export const products = [
         badge: "Wireless · LED · Single Queue",
         headline: "Entry-level wireless LED token system for single-queue setups",
         summary:
-          "An affordable wireless LED-based token system to manage a single queue efficiently — perfect for small clinics, single-counter banks and modest retail outlets. Bright LED display for clear viewing in waiting areas, plug-and-play wireless setup with calling unit, printer and router. No wiring between units.",
+          "An affordable wireless LED-based token system to manage a single queue efficiently — perfect for small clinics, single-counter banks and modest retail outlets. Bright LED display for clear viewing in waiting areas, plug-and-play wireless setup with calling unit and printer over a self-contained RF network. No wiring between units.",
         features: [
           "Completely wireless LED-based token management for organised patient / customer flow",
           "Bright LED display panel for clear viewing in waiting areas",
@@ -583,9 +583,9 @@ export const products = [
           "Token dispenser with print of name, token number, date & time + auto-cutter",
           "Designed to manage a single queue efficiently",
           "Voice announcement in English with any one regional language",
-          "Wi-Fi router generates a self-contained network",
+          "Self-contained RF network between units — no Wi-Fi router required",
           "No wiring required between hardware parts — plug-and-play",
-          "5 V power point at every installation point",
+          "Standard 220 V AC point at each installation location, connected via our own 5 A plug",
         ],
         applications: ["Small clinics", "Single-counter bank branches", "Dental & ENT clinics", "Diagnostic labs", "Boutique service counters"],
         specs: [
@@ -593,7 +593,7 @@ export const products = [
           { label: "Queues",    value: "1 (single-queue)" },
           { label: "Dispenser", value: "Token printer with auto-cutter" },
           { label: "Voice",     value: "English + 1 regional language" },
-          { label: "Connectivity", value: "Wi-Fi (router-based)" },
+          { label: "Connectivity", value: "RF wireless network (no Wi-Fi router)" },
         ],
       },
     ],
